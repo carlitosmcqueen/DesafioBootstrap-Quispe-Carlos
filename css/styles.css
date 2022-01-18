@@ -1,0 +1,57 @@
+*{
+    /* lo pongo por poner no se si tambien se aplica en boot */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(24, 61, 116);
+}
+.fondo{
+    max-width: 100%;
+    height: auto;
+}
+
+.mario{
+    height:25vh;
+    /* tengo un problema aca, cuando le pongo anchura a mario para que me quede bien en la pantalla de compu a la hora de achicar la pantalla se distorsiona */
+}
+.main1{
+    background-color:rgb(12, 79, 134);
+    margin: 0px;
+    padding: 3vh;
+    height:53.9vh;
+}
+.main2{
+    background-color:yellow;
+    margin:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.mapa{
+    height:15vh;
+}
+.footer{
+padding:0px;
+}
+.marioreal{
+    /* sigo siendo teniendo problemas con las imagenes */
+    display:flex;
+    height:100%;
+    width:100%;
+}
+p{
+    font-size: 22px;
+  font-family: 'Bebas Neue';
+  color: rgb(61, 19, 19);
+}
+h1{
+    font-family: 'Bebas Neue';
+}
+h2{
+    font-family: 'Bebas Neue';
+}
+.titulo{
+    padding-top:3vh
+}
